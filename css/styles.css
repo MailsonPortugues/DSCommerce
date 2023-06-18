@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2? family= Montserrat:ital,wght@0,100;0,400;0,600;0,700;1,300 & family= Open+Sans:wght@400;700 & family= Raleway:wght@300;400;700 & display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans";
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+html,
+body {
+  background-color: #e8e8e8;
+}
+
+header {
+  background-color: #ffe500;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  color: #636363;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#product-details {
+  padding: 20px 0;
+}
+
+.card {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.card-top {
+  border-bottom: 1px solid #d9d9d9;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-top img {
+  width: 220px;
+}
+
+.card-bottom {
+  padding: 10px 20px 20px 20px;
+}
+
+.card-bottom h3 {
+  color: #0caf1d;
+  font-size: 20px;
+}
+
+.card-bottom h4 {
+  color: #636363;
+  font-size: 12px;
+}
+
+.card-bottom p {
+  color: #636363;
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.cateory-container {
+  display: flex;
+}
+
+.category {
+  padding: 0 20px;
+  margin-right: 20px;
+  background-color: #636363;
+  border-radius: 4px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-page-container {
+  width: 220px;
+  display: grid;
+  grid-gap: 20px;
+}
+
+.btn {
+  border-radius: 4px;
+  height: 42px;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-blue {
+  background-color: #3483fa;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #3483fa;
+  border: 1px solid #3483fa;
+  cursor: pointer;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
