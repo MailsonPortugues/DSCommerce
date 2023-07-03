@@ -73,6 +73,7 @@
   .cart-item-right {
     padding-top: 10px;
   }
-  .cart-total-container h3{
+  .cart-total-container h3 {
     text-align: right;
   }
+}
