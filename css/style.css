@@ -27,6 +27,7 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 0 20px;
 }
 
 .btnGroup {
@@ -80,11 +81,21 @@
 }
 
 .btn-page-container {
-  width: 220px;
+  width: 100%;
   display: grid;
   grid-gap: 20px;
 }
+@media (min-width: 576px) {
+  .btn-page-container {
+    width: 220px;
+  }
+}
 
+@media (min-width: 322px) {
+  .btn-page-container {
+    width: 220px;
+  }
+}
 .btn {
   border-radius: 4px;
   height: 42px;
